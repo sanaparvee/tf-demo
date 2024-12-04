@@ -22,8 +22,8 @@ jobs:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: 'AKIAUEFYHPDJ7HOQNCNF'
-          aws-secret-access-key: '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'
+          aws-access-key-id: 'AKIAUEFYHPDJ7ASXN45T'
+          aws-secret-access-key: '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'
           aws-region: us-east-1
 
       # Install Terraform
