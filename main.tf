@@ -11,7 +11,7 @@ provider "aws" {
   region     = "us-east-1"
 }
 
-resource "aws_s3_bucket" "my_bucket" {
+#resource "aws_s3_bucket" "my_bucket" {
   bucket = "dummy-udp-poc-bucket"
 
   tags = {
@@ -19,4 +19,4 @@ resource "aws_s3_bucket" "my_bucket" {
     Project     = "Terraform"
     Owner       = "DE-Team"
   }
-}
+}#
