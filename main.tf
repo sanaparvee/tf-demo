@@ -17,6 +17,6 @@ resource "aws_s3_bucket" "my_bucket" {
   tags = {
     Environment = "Development"
     Project     = "Terraform"
-    Owner       = "TeamA"
+    Owner       = "DE-Team"
   }
 }
