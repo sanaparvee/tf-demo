@@ -22,8 +22,8 @@ jobs:
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: 'AKIAUEFYHPDJU2LZXC5X'
-          aws-secret-access-key: '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'
+          aws-access-key-id: 'AKIAUEFYHPDJ7HOQNCNF'
+          aws-secret-access-key: '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'
           aws-region: us-east-1
 
       # Install Terraform
@@ -44,4 +44,5 @@ jobs:
       # Terraform Apply
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' # Apply only on the main branch
-        run: terraform apply -auto-approve tfplan
+        run: terraform apply -auto-approve
+
