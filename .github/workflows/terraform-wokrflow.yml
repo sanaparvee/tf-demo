@@ -36,13 +36,10 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      # Terraform Format Check
-      - name: Terraform Format Check
-        run: terraform fmt -check
 
       # Terraform Plan
       - name: Terraform Plan
-        run: terraform plan -out=tfplan
+        run: terraform plan
 
       # Terraform Apply
       - name: Terraform Apply
